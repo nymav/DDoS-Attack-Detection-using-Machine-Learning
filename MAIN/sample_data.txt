@@ -1,0 +1,37 @@
+Sample X,y values are as follows
+duration                          0.00
+protocol_type                     1.00
+flag                              0.00
+src_bytes                       217.00
+dst_bytes                      2032.00
+land                              0.00
+wrong_fragment                    0.00
+urgent                            0.00
+hot                               0.00
+num_failed_logins                 0.00
+logged_in                         1.00
+num_compromised                   0.00
+root_shell                        0.00
+su_attempted                      0.00
+num_file_creations                0.00
+num_shells                        0.00
+num_access_files                  0.00
+is_guest_login                    0.00
+count                             6.00
+srv_count                         6.00
+serror_rate                       0.00
+rerror_rate                       0.00
+same_srv_rate                     1.00
+diff_srv_rate                     0.00
+srv_diff_host_rate                0.00
+dst_host_count                   59.00
+dst_host_srv_count               59.00
+dst_host_diff_srv_rate            0.00
+dst_host_same_src_port_rate       0.02
+dst_host_srv_diff_host_rate       0.00
+[[0.00,1.00,0.00,217.00,2032.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,6.00,6.00,0.00,0.00,1.00,0.00,0.00,59.00,59.00,0.00,0.02,0.00  ]]
+Name: 5, dtype: float64 Attack Type    normal
+testSet = [[0.00,1.00,0.00,217.00,2032.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,6.00,6.00,0.00,0.00,1.00,0.00,0.00,59.00,59.00,0.00,0.02,0.00  ]]
+test = pd.DataFrame(testSet)
+predictions = clfg.predict(test)
+print('GNB Prediction on the first test set is:',predictions)
