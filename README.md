@@ -1,8 +1,8 @@
-# DDoS Attack Detection using Machine Learning 🚨🧠
+# DDoS Attack Detection using Machine Learning
 
 This project implements a machine learning pipeline to detect Distributed Denial of Service (DDoS) attacks using the KDD Cup 1999 dataset. Multiple Python scripts and models are used to preprocess, train, compare, and evaluate algorithms for classifying network traffic.
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 DDoS-Attack-Detection-using-Machine-Learning/
@@ -24,13 +24,13 @@ DDoS-Attack-Detection-using-Machine-Learning/
 │   └── *.docx, *.pdf, *.png, *.pptx
 ```
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python (with libraries like `sklearn`, `pandas`, `numpy`)
 - Classic ML algorithms: Naive Bayes, etc.
 - Dataset: KDD Cup 1999
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 cd MAIN
@@ -39,7 +39,7 @@ python gnb1.py     # or run any relevant script based on your test
 
 > Some scripts may expect the dataset to be extracted and available in the same folder.
 
-## 📄 Ignored Files and Folders
+## Ignored Files and Folders
 
 All content inside the `ignore/` folder is excluded from Git version control:
 
@@ -53,4 +53,4 @@ For academic reference, see `7053Abstract.docx` and `7053Main.docx` (excluded fr
 
 ---
 
-👤 **Author**: Nikhil Yarra
+ **Author**: Nikhil Yarra
